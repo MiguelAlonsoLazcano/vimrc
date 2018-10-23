@@ -59,13 +59,14 @@ if v:version >= 700
   autocmd BufNewFile,BufRead *.txt setlocal spell spelllang=en
 endif
 " color scheme options
-"set background=dark
+set background=dark
 "let g:solarized_termtrans=1
 "let g:solarized_termcolors=256
 "let g:solarized_contrast="high"
 "let g:solarized_visibility="high"
 let g:airline_theme='myterm'
-colorscheme dzo
+"colorscheme dzo
+colorscheme  ir_black
 
 " Custom mappings
 let maplocalleader=','        " all my macros start with ,
